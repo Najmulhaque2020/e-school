@@ -40,6 +40,9 @@ header{
 .navbar {
     padding: 10px;    
 }
+.navbar .fa-bars {
+    font-size: 30px;
+}
 .navbar .navbar-brand img {
     height: 60px;
 }
@@ -59,6 +62,7 @@ header{
     background-color: #21B573;
 }
 /*------------------ information ---------------*/
+
 #information img{
     height: 100px;
 }
@@ -78,6 +82,10 @@ header{
     box-shadow: 0 0 30px rgba(0,0,0,.2);
 }
 /*------------------ online_class ---------------*/
+#online_class .card-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 #online_class .card h5 {
     padding-top: 20px;
 }
@@ -95,6 +103,13 @@ header{
     box-shadow: 0 0 30px rgba(0,0,0,.2);
     border: 0;
     border-radius: 10px;
+}
+/*------------------ testmonials ---------------*/
+#testmonials img {
+    width: 160px;
+}
+#testmonials .col-md-2 {
+    text-align: center;
 }
 /*------------------ footer ---------------*/
 footer {
@@ -121,6 +136,9 @@ footer a:hover{
 .s_link:hover {
     color: #fff;
 }
-/*------------------ Typography ---------------*/
+/*------------------ Media ---------------*/
+@media (max-width: 991px) {
+
+}
 /*------------------ Typography ---------------*/
 /*------------------ Typography ---------------*/
