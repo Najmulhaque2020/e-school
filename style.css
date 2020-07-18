@@ -64,13 +64,16 @@ header{
 }
 #information h2{
     padding-top: 20px;
+    font-size: 25px;
 }
-#information .col-md-3 .info {
+#information .info {
     background-color: #F0FFF0;
-    padding: 35px 0;
+    margin: 15px 0;
+    padding: 30px 0;
+    height: 260px;
     transition: all linear;
 }
-#information .col-md-3 .info:hover {
+#information .info:hover {
     background-color: #fff;
     box-shadow: 0 0 30px rgba(0,0,0,.2);
 }
