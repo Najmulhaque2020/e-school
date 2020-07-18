@@ -1,0 +1,123 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+/*------------------ Typography ---------------*/
+h1,h2,h3,h4, h5 {
+    color: #212529;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.primary_btn {    
+    color: #000 !important;
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 7px 20px !important;
+    margin: 3px;
+    border: 2px solid #21B573;
+    transition: all .5s linear;    
+}
+.primary_btn:hover {
+    color: #fff !important;
+    background-color: #21B573;
+}
+/*------------------ Navigation ---------------*/
+header{
+    background-color: #F0FFF0;
+}
+.navbar {
+    padding: 10px;    
+}
+.navbar .navbar-brand img {
+    height: 60px;
+}
+.navbar .nav-link {
+    color: #000 !important;
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 7px 20px !important;
+    margin: 3px;
+    transition: all .5s linear;
+}
+.navbar .nav-link:hover, .navbar .nav-link.active, .navbar .nav-item:last-child .nav-link {
+    color: #fff !important;
+    background-color: #21B573;
+}
+/*------------------ information ---------------*/
+#information img{
+    height: 100px;
+}
+#information h2{
+    padding-top: 20px;
+}
+#information .col-md-3 .info {
+    background-color: #F0FFF0;
+    padding: 35px 0;
+    transition: all linear;
+}
+#information .col-md-3 .info:hover {
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
+}
+/*------------------ online_class ---------------*/
+#online_class .card h5 {
+    padding-top: 20px;
+}
+#online_class .card .primary_btn{
+    background-color: #21B573;    
+    border-color: transparent;
+    margin-bottom: 25px;
+}
+#online_class .card .primary_btn:hover{
+    border-color: #21B573;    
+    background-color: transparent;   
+    color: #21B573 !important;
+}
+#online_class .card {
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
+    border: 0;
+    border-radius: 10px;
+}
+/*------------------ footer ---------------*/
+footer {
+    font-size: 18px;
+    background-color: #282531;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+footer .col-md-5 {
+    padding-left: 25px;
+}
+footer a, footer p, footer h2 {
+    color: #fff;
+}
+footer a:hover{
+    color: #21B573;
+}
+.copyright {
+    font-weight: bold;
+}
+.s_link {
+    color: #21B573;
+}
+.s_link:hover {
+    color: #fff;
+}
+/*------------------ Typography ---------------*/
+/*------------------ Typography ---------------*/
+/*------------------ Typography ---------------*/
